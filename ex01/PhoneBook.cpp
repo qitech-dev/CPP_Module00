@@ -13,7 +13,7 @@ void PhoneBook::addContact()
 
     do
     {
-        std::cout << "First name: " << std::endl;;
+        std::cout << "First name: " << std::endl;
         if (!std::getline(std::cin, input))
     		return;
     }
@@ -22,7 +22,7 @@ void PhoneBook::addContact()
 
     do
     {
-        std::cout << "Last name: " << std::endl;;
+        std::cout << "Last name: " << std::endl;
         if (!std::getline(std::cin, input))
     		return;
     }
@@ -31,7 +31,7 @@ void PhoneBook::addContact()
 
     do
     {
-        std::cout << "Nickname: " << std::endl;;
+        std::cout << "Nickname: " << std::endl;
         if (!std::getline(std::cin, input))
     		return;
     }
@@ -40,7 +40,7 @@ void PhoneBook::addContact()
 
     do
     {
-        std::cout << "Phone number: " << std::endl;;
+        std::cout << "Phone number: " << std::endl;
         if (!std::getline(std::cin, input))
     		return;
     }
@@ -49,7 +49,7 @@ void PhoneBook::addContact()
 
     do
     {
-        std::cout << "Darkest secret: " << std::endl;;
+        std::cout << "Darkest secret: " << std::endl;
         if (!std::getline(std::cin, input))
     		return;
     }
