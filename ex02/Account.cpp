@@ -136,3 +136,8 @@ Account::~Account(void)
               << ";closed"
               << std::endl;
 }
+
+int Account::checkAmount(void) const
+{
+    return _amount;
+}
