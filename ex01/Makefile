@@ -17,10 +17,10 @@ $(NAME): $(OBJ)
 clean:
 	rm -f $(OBJ)
 
-fclean:	clean
+fclean: clean
 	rm -f $(NAME)
 
-re:	fclean
+re: fclean
 	$(NAME) all
 
 .PHONY: all clean fclean re
