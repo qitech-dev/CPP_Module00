@@ -11,12 +11,12 @@ private:
 	Contact contacts[8];
 	int	count;
 	int	next_index;
+	void displayContacts() const;
+	void displayContact(int index) const;
 
 public:
 	PhoneBook();
 	void addContact();
-	void displayContacts() const;
-	void displayContact(int index) const;
 	void searchContact() const;
 };
 
